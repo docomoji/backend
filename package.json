@@ -1,0 +1,32 @@
+{
+  "name": "docomoji_backend",
+  "version": "1.0.0",
+  "description": "The docomoji's backend written using tinyhttp and mongoose.",
+  "type": "module",
+  "main": "server.js",
+  "dependencies": {
+    "mongodb": "^3.6.4",
+    "mongoose": "^5.11.18"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/docomoji/backend.git"
+  },
+  "keywords": [
+    "backend",
+    "tinyhttp",
+    "mongodb",
+    "mongoose"
+  ],
+  "author": "Thomas Teixeira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/docomoji/octo-disco/issues"
+  },
+  "homepage": "https://github.com/docomoji/octo-disco#readme"
+}
