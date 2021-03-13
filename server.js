@@ -22,5 +22,5 @@ app.get('/random', (_, res, next) => {
 
 // Launch the server once the connection to the db is opened
 mongoose.connection.once('open', function() {
-    app.listen(3030, () => console.log('Server is running'))
+    app.listen(process.end.PORT || 3030, () => console.log('Server is running'))
 });
